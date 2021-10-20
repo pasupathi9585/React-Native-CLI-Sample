@@ -1,22 +1,12 @@
-import { NavigationContainer } from '@react-navigation/native';
 import React from 'react';
-import {
-  SafeAreaView,
-  ScrollView,
-  StatusBar,
-  StyleSheet,
-  Text,
-  useColorScheme,
-  View,
-} from 'react-native';
-import AppNavication from './src/navigations/index'
+import GlobalProvider from './src/context/Provider';
+import AppNavication from './src/navigations/index';
 
 const App = () => {
-  const isDarkMode = useColorScheme() === 'dark';
-
   return (
-    <AppNavication>
-    </AppNavication>
+    <GlobalProvider>
+      <AppNavication/>
+    </GlobalProvider>
   );
 };
 
