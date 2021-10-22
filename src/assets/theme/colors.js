@@ -1,9 +1,9 @@
 export default {
-    primary: '#4361ee',
+    primary: '#58a4db',
     secondary: '#3f37c9',
     accent: '#4895ef',
-    danger: '#f72585',
-    success: '#4cc9f0',
-    grey: '#abcd5bd',
+    danger: '#d9001d',
+    success: '#228B22',
+    grey: '#D3D3D3',
     white: '#ffffff'
 }
